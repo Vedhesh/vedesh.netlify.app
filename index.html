@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>W.I.P.</title>
+    <title>CubeToy</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script>function tell() {alert("Press any key to Refresh")};
+    tell()
+    function m() {
+        location.replace("https://vedesh.netlify.app")
+    };
+    </script>
+    <style>
+    body{
+        overflow: hidden;
+        background-color:#1EC3D1;
+        display: grid;
+        place-items:center;}
+    h1{
+        font-family: Roboto,sans-serif;
+        font-weight: 100;
+        color: white;
+        font-size: 50px;
+    }
+    #white{
+        color:white;
+        font-size:30px;
+        font-family: "Impact",sans-serif;
+        font-weight: 100;
+    }
+    #yellow{
+        color:gold;
+        font-size:30px;
+        font-family: "Impact",sans-serif;
+        font-weight: 100;
+    }
+    #red{
+        color:crimson;
+        font-size:30px;
+        font-family: "Impact",sans-serif;
+        font-weight: 100;
+    }
+    #blue{
+        color: #007bff;
+        font-size:30px;
+        font-family: "Impact",sans-serif;
+        font-weight: 100;
+    }
+    #black{
+        color: #282828;
+        font-size:30px;
+        font-family: "Impact",sans-serif;
+        font-weight: 100;
+    }
+    
+</style>
 </head>
-<body>
-    <h6>if you're seeing this that means 1 + 1 = 2</h6>
+<body  onkeydown="">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.474/build/spline-viewer.js"></script>
+    <spline-viewer id="viewer" url="https://prod.spline.design/1weVZ3FLHzGvqmxG/scene.splinecode" width="100%" height="90%"></spline-viewer>
+    <div class="wrapper"><h1>Loading...</h1></div>
+    <h3 background-color="#28282828"><ul>
+        <li id="white">White Cube = Normal</li>
+        <li id="yellow">Yellow Cube = Bouncy</li>
+        <li id="red">Red Cube = No Friction</li>
+        <li id="blue">Blue Cube = Heavy</li>
+        <li id="black">Black Cube = No Gravity</li>
+    </ul></h3>
+    
 </body>
-</html>
+</html> 
